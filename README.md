@@ -19,3 +19,11 @@ Inspecting errors
 
 And then view the kibana dashboard on your localhost by visiting
 http://localhost:5601
+
+
+### But wait, where the logs?
+Thats what the nginx container is for. Do a quick:
+`curl http://localhost:8080`
+and `curl http://localhost:8080/testpage404`
+
+There is no test page, but youll get a 404 result in logs
