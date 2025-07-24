@@ -15,3 +15,7 @@ Inspecting errors
 `docker-compose ps #list all containers`
 `docker logs <containername> #see whats going on in there`
 `docker-compose restart <containername>` 
+
+
+And then view the kibana dashboard on your localhost by visiting
+http://localhost:5601
